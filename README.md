@@ -1,1 +1,1 @@
-Baby Notifier! Let your peeps know when it pops out :)
+SMS assassin-style game.

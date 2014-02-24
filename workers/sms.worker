@@ -1,0 +1,11 @@
+runtime 'ruby'
+
+remote
+
+# dependencies
+gem 'twilio-ruby'
+gem 'uber_config'
+file 'config.yml'
+
+# executable
+exec 'sms.rb'

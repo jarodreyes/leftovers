@@ -57,12 +57,20 @@ GEM
     fastercsv (1.5.5)
     haml (4.0.3)
       tilt
+    iron_core (1.0.3)
+      rest (>= 2.6.4)
+    iron_worker_ng (1.2.0)
+      bundler
+      iron_core (>= 1.0.0)
+      rubyzip (>= 1.0.0)
     json (1.8.0)
     json_pure (1.8.0)
     jwt (0.1.8)
       multi_json (>= 1.5)
     mini_portile (0.5.1)
     multi_json (1.7.7)
+    net-http-persistent (2.9.4)
+    netrc (0.7.7)
     newrelic_rpm (3.6.7.159)
     nokogiri (1.6.0)
       mini_portile (~> 0.5.0)
@@ -72,7 +80,13 @@ GEM
       rack
     rack-test (0.6.2)
       rack (>= 1.0)
+    rest (2.7.1)
+      net-http-persistent (>= 2.9.1)
+      rest_client (>= 1.7.1)
+    rest_client (1.7.3)
+      netrc (~> 0.7.7)
     rotp (1.4.1)
+    rubyzip (1.1.0)
     sanitize (2.0.6)
       nokogiri (>= 1.4.4)
     sinatra (1.4.3)
@@ -101,6 +115,7 @@ DEPENDENCIES
   data_mapper
   dm-postgres-adapter
   haml
+  iron_worker_ng
   newrelic_rpm
   pg
   rotp

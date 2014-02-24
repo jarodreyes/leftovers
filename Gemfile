@@ -11,6 +11,7 @@ gem "rotp"
 
 gem "data_mapper"
 gem 'newrelic_rpm'
+gem 'iron_worker_ng'
 
 # group :development do
 #   gem 'sqlite3'
