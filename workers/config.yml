@@ -1,5 +1,5 @@
 
 twilio:
-  sid: AC38cf10e53d331ec9ce14db86deb3bf29
-  token: d219c7bda3b671b41c0f31486a057b87
+  sid: env.twilio_sid
+  token: env.twilio_token
   from: 17603034118
